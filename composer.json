@@ -8,6 +8,6 @@
     "minimum-stability": "dev",
     "support": {
         "issues": "https://github.com/EuropeanUniversityFoundation/openid_connect_myacademicid/issues",
-        "source": "https://github.com/EuropeanUniversityFoundation/openid_connect_myacademicid",
+        "source": "https://github.com/EuropeanUniversityFoundation/openid_connect_myacademicid"
     }
 }
