@@ -1,0 +1,13 @@
+{
+    "name": "openid_connect_myacademicid",
+    "type": "drupal-module",
+    "description": "OpenID Connect client for MyAcademicID",
+    "keywords": [
+    ],
+    "homepage": "https://github.com/EuropeanUniversityFoundation/openid_connect_myacademicid",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://github.com/EuropeanUniversityFoundation/openid_connect_myacademicid/issues",
+        "source": "https://github.com/EuropeanUniversityFoundation/openid_connect_myacademicid",
+    }
+}
