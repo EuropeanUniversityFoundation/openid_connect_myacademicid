@@ -1,5 +1,5 @@
 # Schema for the configuration files of the OpenID Connect MyAcademicID module.
-openid_connect.settings.generic:
+openid_connect.settings.myacademicid:
   type: config_object
   label: 'OpenID Connect MyAcademicID settings'
   mapping:
