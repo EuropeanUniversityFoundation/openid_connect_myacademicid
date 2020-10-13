@@ -1,5 +1,5 @@
 {
-    "name": "openid_connect_myacademicid",
+    "name": "euf/openid_connect_myacademicid",
     "type": "drupal-module",
     "description": "OpenID Connect client for MyAcademicID",
     "keywords": [
