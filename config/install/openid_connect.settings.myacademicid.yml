@@ -1,0 +1,7 @@
+enabled: false
+settings:
+  client_id:
+  client_secret:
+  authorization_endpoint: 'https://proxy.acc.erasmus.eduteams.org/OIDC/authorization'
+  token_endpoint: 'https://proxy.acc.erasmus.eduteams.org/OIDC/token'
+  userinfo_endpoint: 'https://proxy.acc.erasmus.eduteams.org/OIDC/userinfo'
