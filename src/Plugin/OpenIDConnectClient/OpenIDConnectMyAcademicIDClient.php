@@ -62,4 +62,18 @@ class OpenIDConnectMyAcademicIDClient extends OpenIDConnectClientBase {
     ];
   }
 
+  /**
+   * {@inheritdoc}
+   */
+  public function retrieveUserInfo($access_token) {
+    $result = parent::retrieveUserInfo($access_token);
+
+    # The module expects an array, not a boolean
+    if ($result == FALSE) {
+      $result = [];
+    }
+
+    return $result;
+  }
+
 }
