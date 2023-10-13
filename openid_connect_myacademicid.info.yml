@@ -1,8 +1,8 @@
 name: 'OpenID Connect MyAcademicID'
 type: module
 description: 'OpenID Connect client for MyAcademicID'
-core_version_requirement: ^8.8 || ^9
-package: Security
+core_version_requirement: ^9.5 || ^10
+package: 'User authentication'
 dependencies:
   - openid_connect:openid_connect
 configure: openid_connect.admin_settings
