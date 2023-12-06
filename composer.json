@@ -1,13 +1,24 @@
 {
     "name": "euf/openid_connect_myacademicid",
     "type": "drupal-module",
-    "description": "OpenID Connect client for MyAcademicID",
+    "description": "Provides an OpenID Connect client plugin for MyAcademicID.",
     "keywords": [
+        "Drupal",
+        "MyAcademicID",
+        "OpenID Connect",
+        "User management"
     ],
     "homepage": "https://github.com/EuropeanUniversityFoundation/openid_connect_myacademicid",
-    "minimum-stability": "dev",
-    "support": {
-        "issues": "https://github.com/EuropeanUniversityFoundation/openid_connect_myacademicid/issues",
-        "source": "https://github.com/EuropeanUniversityFoundation/openid_connect_myacademicid"
-    }
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Tiago Simões",
+            "email": "tiago.simoes@uni-foundation.eu",
+            "role": "Maintainer"
+        }
+    ],
+    "suggest": {
+        "euf/myacademicid_user_fields": "Extends the User entity to store MyAcademicID user claims."
+    },
+    "minimum-stability": "dev"
 }
