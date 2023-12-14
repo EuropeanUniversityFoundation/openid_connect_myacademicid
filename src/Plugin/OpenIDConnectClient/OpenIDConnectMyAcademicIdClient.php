@@ -107,7 +107,7 @@ class OpenIDConnectMyAcademicIdClient extends OpenIDConnectClientBase {
       '#title' => $this->t('Environment'),
       '#type' => 'select',
       '#options' => [
-        'staging' => $this->t('Acceptance'),
+        'acceptance' => $this->t('Acceptance'),
         'production' => $this->t('Production'),
       ],
       '#default_value' => $this->configuration['environment'],
